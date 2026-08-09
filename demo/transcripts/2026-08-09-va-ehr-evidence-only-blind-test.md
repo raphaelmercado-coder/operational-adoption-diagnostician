@@ -3,11 +3,13 @@
 ## Run record
 
 - Date: 2026-08-09
-- Runtime: Project interface; platform and model label were not recorded
+- Runtime: OpenAI Project
+- Model label: OpenAI 5.6 Sol
 - Diagnostician package: `operational-adoption-diagnostician.zip`
 - Case artifact: `VA-EHR-evidence-only-packet.pdf`
-- User prompt: Exact prompt was not recorded
-- Follow-up turns: None reported
+- User prompt: None
+- User action: Uploaded the case PDF without accompanying text
+- Follow-up turns: None
 - Transcript status: Unedited model output supplied by the user
 
 ## Model response

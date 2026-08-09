@@ -7,7 +7,7 @@ This folder contains the source, construction record, runtime evidence, and vali
 1. Start with the real 77-page VA OIG audit.
 2. Reconstruct six evidence artifacts from factual chronology, documented responsibilities, attributed accounts, survey results, and operating data.
 3. Package those artifacts into one seven-page blind-test PDF while withholding the OIG's findings, conclusions, causal labels, and recommendations.
-4. Run the diagnostician on the evidence-only PDF.
+4. Upload the evidence-only PDF to an OpenAI Project running OpenAI 5.6 Sol with no accompanying user prompt.
 5. Compare the unedited result with the full audit only after the run.
 
 The six artifacts are page-sourced reconstructions from one public report. They are not represented as independently obtained raw memoranda, survey exports, training files, or system records.
@@ -27,6 +27,8 @@ Use the evidence-only PDF as the case input. Keep the full report out of the pro
 - `source-map.md`: maps every packet artifact to the report's printed pages and records what was withheld
 - `held-out-validation.md`: compares the unedited result with the audit after the run
 - `../transcripts/2026-08-09-va-ehr-evidence-only-blind-test.md`: preserves the model output without repair
+
+Run metadata: OpenAI Project, OpenAI 5.6 Sol, PDF upload only, zero user-prompt words, and no follow-up turns.
 
 ## Original raw-report test
 

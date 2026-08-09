@@ -4,7 +4,7 @@ This is the public record of execution status. Update it only when the correspon
 
 | Test | Fixture | Expected behavior | Status | Transcript |
 | --- | --- | --- | --- | --- |
-| VA EHR evidence-only blind test | `public-case-va-ehr/VA-EHR-evidence-only-packet.pdf` | independently identify one primary cause from facts with the OIG's conclusions withheld | Substantive pass; readiness-validation cause; causal-chain numbering deviation | `transcripts/2026-08-09-va-ehr-evidence-only-blind-test.md` |
+| VA EHR evidence-only blind test | `public-case-va-ehr/VA-EHR-evidence-only-packet.pdf` | independently identify one primary cause from facts with the OIG's conclusions withheld | Substantive pass; zero-prompt OpenAI 5.6 Sol; readiness-validation cause; causal-chain numbering deviation | `transcripts/2026-08-09-va-ehr-evidence-only-blind-test.md` |
 | VA OIG raw-PDF blind test | `public-case-va-ehr/VA-EHR-training-deficiencies-case.pdf` | decision-rights failure | Substantive pass; causal-chain numbering deviation | `transcripts/2026-08-09-va-ehr-raw-pdf-blind-test.md` |
 | Public audited case | `public-case-dentrix/evidence-packet.md` | technical-operability failure | Not run | Not present |
 | Field-derived diagnosis | `anonymized-field-case/evidence-packet.md` | decision-rights failure | Not run | Not present |

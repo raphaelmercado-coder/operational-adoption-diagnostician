@@ -1,6 +1,6 @@
 # Held-Out Validation: VA EHR Evidence-Only Blind Test
 
-This is a post-run comparison, not a prewritten answer imported into the diagnostician. The model received `VA-EHR-evidence-only-packet.pdf`; the full VA OIG report remained outside the project until after the response was produced.
+This is a post-run comparison, not a prewritten answer imported into the diagnostician. OpenAI 5.6 Sol received `VA-EHR-evidence-only-packet.pdf` in an OpenAI Project with no accompanying user prompt; the full VA OIG report remained outside the project until after the response was produced.
 
 The validation question is not whether the model reproduced one required sentence. It is whether the selected primary cause is supported by the withheld audit, explains the observed failure better than a symptom list, and respects the packet's evidentiary limits.
 
@@ -48,4 +48,3 @@ One required-format deviation remains visible: the response supplied five causal
 ## Validation limitation
 
 The same public audit supplied both the factual material used to reconstruct the packet and the conclusions used for post-run validation. Withholding those conclusions creates a legitimate test of causal inference from the retained evidence, but it is not independent corroboration from a second source. The source map and construction rules are published so this boundary remains inspectable.
-

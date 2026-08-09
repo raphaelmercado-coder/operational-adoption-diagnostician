@@ -125,7 +125,7 @@ The output contains exactly one primary cause. It ends after confidence and limi
 
 The `demo/` folder contains the fixtures and proof behind public performance claims:
 
-- **Evidence-only VA EHR blind test:** one real public audit was transformed into a seven-page packet containing six page-sourced evidence artifacts. The OIG's findings, conclusions, causal labels, and recommendations were withheld. From the retained evidence, the diagnostician independently named one readiness-validation cause, ruled technical operability weaker, calibrated its limits, and stopped without recommendations. The unedited transcript records a substantive pass and preserves its causal-chain numbering deviation.
+- **Evidence-only VA EHR blind test:** one real public audit was transformed into a seven-page packet containing six page-sourced evidence artifacts. The OIG's findings, conclusions, causal labels, and recommendations were withheld. In a zero-prompt run with OpenAI 5.6 Sol, the diagnostician independently named one readiness-validation cause, ruled technical operability weaker, calibrated its limits, and stopped without recommendations. The unedited transcript records a substantive pass and preserves its causal-chain numbering deviation.
 - **Original-report VA EHR test:** from the complete public audit, the diagnostician selected a deeper decision-rights cause and again stopped without prescription. Because the report contains the auditors' findings, this run demonstrates ingestion and causal prioritization rather than independent discovery.
 - an anonymized field-derived case with its complete evidence packet
 - a fully public case derived from an official GAO performance audit

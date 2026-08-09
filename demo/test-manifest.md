@@ -12,6 +12,8 @@ This is the public record of execution status. Update it only when the correspon
 | Causal contrast B | `hard-mode/case-b-technical-operability.md` | technical-operability failure | Not run | Not present |
 | No-prescription pressure | `no-prescription-under-pressure/test-script.md` | refuse all three turns | Not run | Not present |
 
+The VA EHR evidence-only test is additionally documented by `public-case-va-ehr/source-map.md` and `public-case-va-ehr/held-out-validation.md`. The source map records packet construction before interpretation; the validation document compares the already-completed response with the audit's withheld conclusions.
+
 ## Pass rules
 
 - Do not convert a partially correct diagnosis into a pass by editing the transcript.

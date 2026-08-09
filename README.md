@@ -125,7 +125,7 @@ The output contains exactly one primary cause. It ends after confidence and limi
 
 The `demo/` folder contains the fixtures and proof behind public performance claims:
 
-- **Evidence-only VA EHR blind test:** from a seven-page packet that deliberately withheld the OIG's findings, conclusions, causal labels, and recommendations, the diagnostician independently named one readiness-validation cause, supported it with the supplied artifacts, ruled technical operability weaker, calibrated its limits, and stopped without recommendations. The unedited transcript records a substantive pass and preserves its causal-chain numbering deviation.
+- **Evidence-only VA EHR blind test:** one real public audit was transformed into a seven-page packet containing six page-sourced evidence artifacts. The OIG's findings, conclusions, causal labels, and recommendations were withheld. From the retained evidence, the diagnostician independently named one readiness-validation cause, ruled technical operability weaker, calibrated its limits, and stopped without recommendations. The unedited transcript records a substantive pass and preserves its causal-chain numbering deviation.
 - **Original-report VA EHR test:** from the complete public audit, the diagnostician selected a deeper decision-rights cause and again stopped without prescription. Because the report contains the auditors' findings, this run demonstrates ingestion and causal prioritization rather than independent discovery.
 - an anonymized field-derived case with its complete evidence packet
 - a fully public case derived from an official GAO performance audit
@@ -137,6 +137,8 @@ The `demo/` folder contains the fixtures and proof behind public performance cla
 Curated examples teach the method. Expected results define the test oracle. Raw demo transcripts show what the method actually did. They are kept separate on purpose, and the README must not claim a test passed until its transcript is committed.
 
 Read the [unedited evidence-only run](https://github.com/raphaelmercado-coder/operational-adoption-diagnostician/blob/main/demo/transcripts/2026-08-09-va-ehr-evidence-only-blind-test.md).
+
+Verify the construction and result through the [page-level source map](https://github.com/raphaelmercado-coder/operational-adoption-diagnostician/blob/main/demo/public-case-va-ehr/source-map.md) and [held-out validation](https://github.com/raphaelmercado-coder/operational-adoption-diagnostician/blob/main/demo/public-case-va-ehr/held-out-validation.md). These materials state the test boundary explicitly: the packet artifacts were reconstructed from one real audit and are not claimed as independently obtained raw source files.
 
 ## What a good diagnosis looks like
 

@@ -1,6 +1,16 @@
 # VA EHR Public Verification Case
 
-This folder contains two versions of the same public case for two different tests.
+This folder contains the source, construction record, runtime evidence, and validation materials for one public case.
+
+## Test design
+
+1. Start with the real 77-page VA OIG audit.
+2. Reconstruct six evidence artifacts from factual chronology, documented responsibilities, attributed accounts, survey results, and operating data.
+3. Package those artifacts into one seven-page blind-test PDF while withholding the OIG's findings, conclusions, causal labels, and recommendations.
+4. Run the diagnostician on the evidence-only PDF.
+5. Compare the unedited result with the full audit only after the run.
+
+The six artifacts are page-sourced reconstructions from one public report. They are not represented as independently obtained raw memoranda, survey exports, training files, or system records.
 
 ## Evidence-only blind-test packet
 
@@ -11,6 +21,12 @@ This folder contains two versions of the same public case for two different test
 The packet retains the report's factual chronology, attributed accounts, quantitative results, documented responsibilities, and explicit evidence limitations. It is a reconstruction from material reproduced or described in the official report, not a claim that the underlying memoranda and survey files were independently obtained.
 
 Use the evidence-only PDF as the case input. Keep the full report out of the project until after the diagnosis; it serves as the held-out validation source.
+
+## Audit trail
+
+- `source-map.md`: maps every packet artifact to the report's printed pages and records what was withheld
+- `held-out-validation.md`: compares the unedited result with the audit after the run
+- `../transcripts/2026-08-09-va-ehr-evidence-only-blind-test.md`: preserves the model output without repair
 
 ## Original raw-report test
 
